@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+    padding: 0;
+    min-width: 100px;
+}
+
+
+body {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    display: flex;
+    background: linear-gradient(14deg, #1b1242, #402e80);
+    min-width: 100px;
+    flex-direction: column;
+    transform: matrix3d(1s);
+    transition: 5s;
+}
+
+
+h1 {
+    font-size: 25px;
+    color: aliceblue;
+    font-family: 'Salsa', cursive;
+    font-weight: bolder;
+    transition: 0, 5s;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #26124e;
+    transform-style: preserve-3d 2s;
+    transform-box: 1s;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    opacity: 60%;
+    width: 350px;
+    padding: 30px;
+    justify-content: center;
+    border-radius: 20px;
+    height: 450px;
+    transition: 1s;
+}
+
+label {
+    font-size: 23px;
+    color: rgb(30, 12, 41);
+    padding: 10px;
+    font-family: 'Salsa', cursive;
+    transition: 1s;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    transition: 0s;
+    outline: 0s;
+    align-items: center;
+}
+
+input:focus {
+    border: solid 4px rgb(77, 34, 121);
+    transition: 1s;
+}
+
+input:hover {
+    border: solid 4px #1b1242;
+    transition: 1s;
+}
+
+::placeholder {
+
+    transition: 0s;
+    transform: 0s;
+}
+
+button {
+    transition: 1s;
+    padding: 13px;
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: center;
+    background-color: #5640bb;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Salsa', cursive;
+    cursor: pointer;
+    border: solid 3px #2d135e;
+}
+
+button:hover {
+    background-color: #2d135e;
+    transition: 0s;
+}

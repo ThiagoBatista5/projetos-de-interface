@@ -1,0 +1,37 @@
+<!--Pagina de cadastro do cliente-->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cadastro</title>
+    <!--link para fazer login com css-->
+    <link rel="stylesheet" href="cadastro.css" />
+    <link href="index.html">
+  </head>
+  <body>
+    <h1 class="texto">cadastro</h1>
+      <form>
+       <div>
+        <label>Nome</label>
+        <input class="form" placeholder="Nome" type="Nome" />
+        <label>Sobrenome</label>
+        <input placeholder="Sobrenome" type="Sobrenome" />
+        <label>Digite seu Email</label>
+        <input placeholder="Digite seu Email" />
+        <label>Crie uma senha</label>
+        <input placeholder="Crie uma senha" type="password" />
+        <button id="meubotao">Criar Conta</button>
+      </form>
+    </div>
+    <script>
+      alert('CRIE SUA CONTA!')
+      //chamando alert no botão
+      let meubotao = document.getElementById('meubotao')
+      //aplicando o alert no button
+      meubotao.addEventListener('click', function () { //lembrar de sempre definir a vareavel id!
+       alert('VERIFIQUE SEU E-MAIL!')
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+    margin: 0%;
+}
+
+body {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    display: flex;
+    background: linear-gradient(14deg, #1b1242, #402e80);
+    min-width: 100px;
+    flex-direction: column;
+    transform: matrix3d(1s);
+    transition: 5s;
+}
+
+.login-interface {
+    border-radius: 25px;
+    width: 400px;
+    padding: 30px;
+    display: -moz-stack;
+    background-color: rgb(247, 241, 246);
+    border-radius: 3px #1e1a33;
+    opacity: 60%;
+    transition: 1s;
+
+}
+
+.login-inicio {
+    font-family: 'Salsa', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(212, 200, 200);
+    transition: 0, 5s;
+    cursor: pointer;
+    transform: matrix3d(2s);
+
+}
+
+h3:hover {
+    color: #1b1242;
+    transition: 0s;
+}
+
+.formulario-padrão {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 10px 20px 10px;
+    font-weight: normal;
+    font-family: 'Salsa', cursive;
+    transition: 0, 5s;
+
+}
+
+input {
+    outline: 0;
+    border: solid 2px #1b1242;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0, 1s;
+
+}
+
+input:focus {
+    border: 4px solid #340f79;
+    transition: border 0, 5s;
+}
+
+::placeholder {
+    color: #684ec7;
+    transition: 0s;
+}
+
+.button-enviar {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #5640bb;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Salsa', cursive;
+    border: 4px solid #1b1242;
+    cursor: pointer;
+    transition: 0, 5s;
+    align-items: center;
+    transform: perspective(5s);
+
+}
+
+.button-enviar:hover {
+    background-color: #1b1242;
+    translate: 0, 1s;
+}
+
+s .p-cadastro {
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Salsa', cursive;
+    color: #6756b3;
+
+}
+
+a {
+    color: #5a1a80;
+    font-family: 'Salsa', cursive;
+    text-align: center;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #1b1242;
+    transition: 0, 5;
+}

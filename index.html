@@ -1,0 +1,34 @@
+<!--pagina de Login do cliente-->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="cadastro.html" />
+  </head>
+  <body>
+    <h3 class="login-inicio">Iniciar sessão</h3>
+    <div class="login-interface">
+      <form class="formulario-padrão">
+        <label>Digite seu Email</label>
+        <input placeholder="Digite seu Email" />
+        <label>Digite sua senha</label>
+        <input placeholder="Digite sua Senha" type="password" />
+        <button class="button-enviar" id="Botão">Enviar</button>
+      </form>
+      <p class="p-cadastro">
+        Sem cadastro?<a href="cadastro.html">criar conta</a>
+      </p>
+    </div>
+    <script>
+      alert('ENTRE NA SUA CONTA!')
+      let Botão = document.getElementById('Botão')
+      Botão.addEventListener('click', function () {
+        // Exibe um alerta quando o botão é clicado
+        alert('BEM-VINDO Thiago!')
+      })
+    </script>
+  </body>
+</html>
