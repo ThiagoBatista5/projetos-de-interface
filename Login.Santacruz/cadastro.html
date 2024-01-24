@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro no painel do torcedor</title>
+    <link rel="stylesheet" href="cadastro.css" />
+    <link href="login.html" />
+  </head>
+  <!--tela de cadastro-->
+  <!--usando html css e javascript-->
+  <body>
+    <main>
+      <h1 href="login.html">Crie Sua Conta</h1>
+      <div class="formulario">
+        <form>
+          <label>Nome</label>
+          <input placeholder="Digite Seu Nome" type="nome" />
+          <label>Sobrenome</label>
+          <input placeholder="Digite Seu Sobrenome" type="sobrernome" />
+          <label>Telefone</label>
+          <input placeholder= "telefone"type="number" />
+          <label>Email</label>
+          <input placeholder="Digite Seu Email" type="email" />
+          <label>Senha</label>
+          <input placeholder="Crie uma Senha" type="password" />
+          <div class="botão"><button id="b">Criar Conta</button></div>
+        </div>
+        </form>
+    </main>
+    <footer>
+      <div class="img">
+        <img a src="https://th.bing.com/th/id/OIP.rnA97IBHX3eL6NPQiZNOMgHaE8?rs=1&pid=ImgDetMain">
+      </div>
+    </footer>
+    <script>
+      window.alert('Complete o Formulario.')
+       let b = document.getElementById('b')
+  b.addEventListener('click', function () {
+     alert('Verifique Seus Dados!!')
+  })
+    </script>
+  </body>
+</html>

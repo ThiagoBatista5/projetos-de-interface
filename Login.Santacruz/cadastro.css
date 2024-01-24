@@ -1,0 +1,149 @@
+/*tela de estilização da tela de login
+o plano é fazer uma interface incrivel e intuitiva*/
+html {
+          min-width: 100%;
+          height: 100%;
+}
+
+body {
+          min-width: 100%;
+          height: 100%;
+          padding: 0%;
+          margin: 0%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+          background-image: linear-gradient(to left, #000000, #ffffff, #ff0000);
+}
+
+body:hover {
+          background-image: linear-gradient(to right, #000000, #ffffff, #ff0000)
+}
+
+input {
+          padding: 20px;
+          font-size: 20px;
+          margin: 15px;
+          align-items: center;
+          justify-content: center;
+          width: 350px;
+          height: 25px;
+          cursor: pointer;
+          transition: 400ms;
+          -webkit-text-fill-color: #eeeeee;
+          background-color: #000000;
+          border-radius: 10px;
+}
+
+input:hover {
+          border-radius: 40px;
+          border-color: #ff0000;
+          -webkit-text-fill-color: #ff0000;
+}
+
+label {
+          color: #ffffff;
+          font-size: 35px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          text-align: start;
+          padding: 5px;
+          cursor: pointer;
+}
+
+label:hover {
+          color: #ff0000;
+          font-size: 45px;
+          transform: translate(z);
+}
+
+::placeholder {
+          color: #eeeeee;
+          font-size: 20px;
+          transition: 1s;
+}
+
+.img {
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+          justify-content: flex-end;
+}
+
+img {
+          border-radius: 100px 100px 100px 100px;
+          width: 200px;
+          transition: 400ms;
+          cursor: pointer;
+}
+
+img:hover {
+          width: 300px;
+          border-radius: 100px 100px 100px 100px;
+}
+
+.formulario {
+          display: flex;
+          background-color: #000000;
+          padding: 50px;
+          opacity: 70%;
+          width: 550px;
+          border-radius: 20px;
+          border: solid 3px red;
+          align-items: center;
+          justify-content: center;
+          transition: 450ms;
+}
+
+.formulario:hover {
+          border-radius: 80px;
+
+}
+
+form {
+          display: flex;
+          flex-direction: column;
+          /*background-color: #000000;*/
+          padding: 40px;
+}
+
+h1 {
+          font-size: 50px;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          transition: 400ms;
+          cursor: pointer;
+
+}
+
+h1:hover {
+          color: #ff0000;
+          font-size: 60px;
+          transform: translate(x);
+}
+
+button {
+          margin-top: 20px;
+          padding: 30px;
+          width: 250px;
+          font-size: 25px;
+          color: #ff0000;
+          background-color: #000000;
+          border: solid 3px rgb(255, 255, 255);
+          cursor: pointer;
+          border-radius: 10px;
+          transition: 400ms;
+}
+
+button:hover {
+          border-radius: 25px;
+          border-color: red;
+          transform: translate(x);
+          background-color: #000000;
+          color: #fff
+}
+
+.botão {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
